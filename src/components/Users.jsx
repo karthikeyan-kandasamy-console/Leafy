@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import axios from 'axios';
 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 export class Users extends Component {
 
@@ -36,7 +36,7 @@ export class Users extends Component {
             "email": "karthi@gmail.com"
         }
 
-        axios.post("http://localhost:4200/user",data).then((response) => {
+        axios.post("http://localhost:4200/user", data).then((response) => {
             console.log(response)
 
         }).catch((error) => {
@@ -58,9 +58,11 @@ export class Users extends Component {
             <div>
                 <table>
                     <thead>
-                        <td>ID</td>
-                        <td>Name</td>
-                        <td>Email</td>
+                        <tr>
+                            <td>ID</td>
+                            <td>Name</td>
+                            <td>Email</td>
+                        </tr>
                     </thead>
                     <tbody>
                         {userData}

@@ -30,28 +30,28 @@ export class Landing extends Component {
                 <div className="trust">
 
                     <div className="item">
-                        <i class="fa-solid fa-headset"></i>
+                        <i className="fa-solid fa-headset"></i>
                         <div className="item-content">
                             <h4>Support 24/7</h4>
                             <p>Dedicated support</p>
                         </div>
                     </div>
                     <div className="item">
-                        <i class="fa-solid fa-check"></i>
+                        <i className="fa-solid fa-check"></i>
                         <div className="item-content">
                             <h4>Secure Payment</h4>
                             <p>Ensure your money is safe</p>
                         </div>
                     </div>
                     <div className="item">
-                        <i class="fa-solid fa-arrow-rotate-left"></i>
+                        <i className="fa-solid fa-arrow-rotate-left"></i>
                         <div className="item-content">
                             <h4>Refundable</h4>
                             <p>Damage items can refund it</p>
                         </div>
                     </div>
                     <div className="item">
-                        <i class="fa-solid fa-truck-fast"></i>
+                        <i className="fa-solid fa-truck-fast"></i>
                         <div className="item-content">
                             <h4>Free Shipping</h4>
                             <p>Order over 399Rs</p>

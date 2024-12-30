@@ -7,14 +7,11 @@ import About from './About';
 import Support from './Support';
 import Login from './Login';
 import Register from './Register';
-import Users from './Users';
 
 export default function PlaceHolder() {
     return (
         <div>
             <Header></Header>
-
-            <Users></Users>
 
             <Routes>
                 <Route path="/" element={<Landing />}></Route>
