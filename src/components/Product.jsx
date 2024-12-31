@@ -1,14 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Product.scss'
 
-export class Product extends Component {
-  render() {
-    return (
-      <div id='product'>
-        
-      </div>
-    )
-  }
+const Product = ()=>{
+  return (
+    <div>
+      <h1>Product</h1>
+    </div>
+  );
 }
 
-export default Product
+export default Product;

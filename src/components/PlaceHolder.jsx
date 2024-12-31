@@ -8,11 +8,10 @@ import Support from './Support';
 import Login from './Login';
 import Register from './Register';
 
-export default function PlaceHolder() {
+const PlaceHolder = () => {
     return (
         <div>
             <Header></Header>
-
             <Routes>
                 <Route path="/" element={<Landing />}></Route>
                 <Route path="/product" element={<Product />}></Route>
@@ -22,8 +21,8 @@ export default function PlaceHolder() {
                 <Route path="/register" element={<Register />}></Route>
                 <Route path="*" element={<div>Not Found</div>}></Route>
             </Routes>
-
-
         </div>
     )
 }
+
+export default PlaceHolder;

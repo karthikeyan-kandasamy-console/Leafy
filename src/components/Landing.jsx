@@ -10,7 +10,6 @@ export class Landing extends Component {
                 <div className="banner">
                     <div className="logo">
                         <img src={LandingPNG} alt="Landing" />
-
                     </div>
 
                     <div className="content">

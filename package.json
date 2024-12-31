@@ -2,6 +2,12 @@
   "name": "leafy",
   "version": "0.1.0",
   "private": true,
+  "description": "A React application for building user interfaces with modern web tools.",
+  "author": "Karthikeyan K <karthik.kandasamy110602@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karthikeyan-kandasamy-console/Leafy.git"
+  },
   "dependencies": {
     "axios": "^1.7.9",
     "cra-template": "1.2.0",

@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
 import './Header.scss';
-
 import logo from '../logo.png';
-
 import { Link,NavLink } from 'react-router-dom';
-
 import cart from '../assets/cart.svg';
-import login from '../assets/login.svg';
 
 export class Header extends Component {
 
     constructor(props) {
-        super(props)
-    }
+        super(props);
+        this.state = {}
+    }   
 
     render() {
         return (
@@ -36,6 +33,7 @@ export class Header extends Component {
                     <div className="icons">
                         <Link to="/cart">
                             <img src={cart} alt="cart" to="/cart" />
+                            
                         </Link>
 
                         <Link className="link" to="/login"> Login</Link>
