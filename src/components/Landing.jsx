@@ -1,11 +1,30 @@
 import React, { Component } from 'react'
 import './Landing.scss'
 import LandingPNG from '../assets/landing.png'
+import { useNavigate } from 'react-router-dom';
+
+const NavigateWrapper = () => {
+    const navigate = useNavigate();
+
+    // Pass navigate as a prop to your class component
+    return <Landing navigate={navigate} />;
+};
 
 export class Landing extends Component {
+
+    // constructor(props) {
+    //     super(props)
+    // }
+
+    naviagteToOther(){
+        this.props.navigate('/about');
+    }
+
     render() {
         return (
             <div id='landing'>
+
+                <button onClick={() => this.naviagteToOther()}>Naviagte</button>
 
                 <div className="banner">
                     <div className="logo">
@@ -64,4 +83,4 @@ export class Landing extends Component {
     }
 }
 
-export default Landing
+export default NavigateWrapper

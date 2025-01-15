@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import Landing from './Landing';
+import NavigateWrapper from './Landing';
 import { Routes, Route } from 'react-router-dom';
 import Product from './Product';
 import About from './About';
@@ -13,7 +13,7 @@ const PlaceHolder = () => {
         <div>
             <Header></Header>
             <Routes>
-                <Route path="/" element={<Landing />}></Route>
+                <Route path="/" element={<NavigateWrapper />}></Route>
                 <Route path="/product" element={<Product />}></Route>
                 <Route path="/about" element={<About />}></Route>
                 <Route path="/support" element={<Support />}></Route>
